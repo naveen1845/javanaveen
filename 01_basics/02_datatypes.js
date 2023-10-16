@@ -2,7 +2,7 @@
 
 // alert(2+2+4)  // we are using nodejs, not browser
 
-// code redability is very important
+// code redability is very important keep in mind
 
 let name = "naveen"
 let age = 18
