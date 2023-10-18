@@ -34,7 +34,34 @@ const object2 = {
 const object3 = {...object1,...object2}   // spreading => moslty use this method
 // console.log(object3);
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+// console.log(tinderuser.hasOwnProperty("isLoggedIn"));  
+
+
+// destructuring of objects
+
+const course = {
+    courseName : "basics of JS",
+    price : 999,
+    courseInstructor : "Teacher 1"
+}
+
+const {courseInstructor : Instructor } = course
+console.log(Instructor);
+
+
+// JSON formats
+
+//  {     
+//     ...
+//     ...
+//  }                 // object
+
+
+//  [
+//     {},
+//     {},
+//     ...
+//  ]               // array of object
